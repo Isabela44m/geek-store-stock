@@ -6,7 +6,7 @@
 body{
     background-color: #110026;
     color: #fff;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 header{
     padding:10px;
@@ -24,6 +24,10 @@ h1{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(0, 255, 153);
 }
+h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: rgb(0, 255, 153);
+}
 #logo{
     display: flex;
     gap:10px;
@@ -35,6 +39,7 @@ h1{
     object-fit: cover;
 }
 #itens{
+    padding: 10px;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -89,6 +94,10 @@ h1{
     border: 1.5px solid rgb(14, 221, 18);
     border-radius: 12px;
 }
+ul{
+    margin-top: 10px;
+    
+}
 #tabela{
     background-color: #15003f;
     margin: 10px;
@@ -107,6 +116,7 @@ caption{
     padding: 10px;
     color: #180036;
     font-size: 20px;
+    text-transform: To uppercase;
 
 }
 th{
@@ -121,4 +131,16 @@ th,td{
 footer{
      padding:20px;
     background-color: #23003f;
+    text-align: center;
+}
+a{
+    background-color: rgb(1, 183, 101);
+    color: #180036;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover{
+   background-color: rgb(255, 255, 255); 
+   color: #02ba61;
 }
